@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEAM VAPES</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="flex flex-col min-h-screen">
+    <header class="bg-primary text-primary-foreground py-4 px-6">
+      <div class="container mx-auto flex items-center justify-between">
+        <a href="#" class="flex items-center gap-2">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <!-- Base del vapeador -->
+            <rect x="8" y="8" width="8" height="12" rx="2" ry="2"></rect>
+            <!-- Botón del vapeador -->
+            <circle cx="12" cy="14" r="1.5"></circle>
+            <!-- Parte superior del vapeador -->
+            <rect x="10" y="4" width="4" height="4" rx="1" ry="1"></rect>
+          </svg>
+          
+            <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+          </svg>
+          <span class="text-lg font-bold">STEAM VAPES</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-4">
+          
+          <a href="#" class="hover:underline">Productos</a>
+          
+        </nav>
+        <div class="relative">
+          
+          <div class="absolute left-2 top-1/2 transform -translate-y-1/2 text-primary"></div>
+        </div>
+      </div>
+    </header>
+    <main class="flex-1 bg-background">
+      <section class="section-info">
+        <div class="container mx-auto max-w-4xl bg-white p-6 rounded-lg shadow-md">
+          <h2 class="text-2xl font-extrabold mb-6 text-blue-700">Información de Entregas y Pagos</h2>
+          <p class="mb-4 text-gray-700">
+            Las entregas de los vapes se realizan de manera presencial en los siguientes lugares:
+          </p>
+          <ul class="list-disc pl-6 mb-6 space-y-2">
+            <li><a href="https://maps.app.goo.gl/wnwVJqw8M7zzqcc16" class="text-blue-600 hover:underline" target="_blank">UTEQ o cerca de ahí</a></li>
+            <li><a href="https://maps.app.goo.gl/8hd8tDzY8Fsptiy16" class="text-blue-600 hover:underline" target="_blank">Deportiva de Belén o cerca de ahí</a></li>
+            <li><a href="https://maps.app.goo.gl/fyt2nEnUME9FWNys6" class="text-blue-600 hover:underline" target="_blank">COBAQ Plantel 13 Epigmenio González o cerca de ahí</a></li>
+            <li><a href="https://maps.app.goo.gl/367mUhE3P4VcoM7m7" class="text-blue-600 hover:underline" target="_blank">Bodega Aurrera Express, Cuarzo o cerca de ahí</a></li>
+            <li><a href="https://maps.app.goo.gl/9zebFvhfq5LDc5fV7" class="text-blue-600 hover:underline" target="_blank">COBAQ Plantel 17 Constitución de 1917 o cerca de ahí</a></li>
+          </ul>
+          <p class="mb-4 text-gray-700">
+            Las entregas más lejanas tendrán un costo adicional de 25 pesos.
+          </p>
+          <p class="mb-4 text-gray-700">
+            Por el momento, la página no cuenta con un sistema de pago en línea. Todos los pagos deben hacerse de manera presencial o por transferencia.
+          </p>
+          <p class="mb-4 text-gray-700">
+            Si estás interesado en algún vape, puedes contactarme por:
+          </p>
+          <ul class="list-disc pl-6 space-y-2">
+            <li><a href="https://www.instagram.com/o_o__lalo__o_o?igsh=MWJhc244c2RnbmY3bw==" class="text-blue-600 hover:underline" target="_blank">Instagram: o_o__lalo__o_o</a></li>
+            <li><a href="tel:4428766460" class="text-blue-600 hover:underline">WhatsApp: 442 876 6460</a></li>
+          </ul>
+        </div>
+      </section>
+      
+      
+      <section class="py-8 px-6 bg-muted">
+        <div class="container mx-auto">
+          <h2 class="text-2xl font-bold mb-4">Todos los Productos</h2>
+          <div class="flex items-center justify-between mb-4">
+            <div class="relative">
+              <input type="search" id="search-input-main" placeholder="Buscar productos..." class="bg-white text-gray-700 pl-8 pr-4 py-2 rounded-md"/>
+              <div class="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-500"></div>
+            </div>
+            
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="TE600">
+              <a href="#">
+                <img src="/Vape1.jpg" alt="Vape TE600" class="product-image">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">TE600</h3>
+                  <p class="text-gray-500 mb-4">Sabor: JUICY PEACH<br><br>Recargable: SI<br><br>Puffs: 6000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">130 MXN</span>
+                    <!-- <button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="enoubar">
+              <a href="#">
+                <img src="/Vape2.jpg" alt="Vape enoubar" class="product-image">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">enoubar</h3>
+                  <p class="text-gray-500 mb-4">Sabor: STRAWBERRY MANGO<br><br>Recargable: SI<br><br>Puffs: 6000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">140 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="enoubar">
+              <a href="#">
+                <img src="/Vape3.jpg" alt="Vape enoubar" class="product-image">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">enoubar</h3>
+                  <p class="text-gray-500 mb-4">Sabor: MANGO PEACH ICE<br><br>Recargable: SI<br><br>Puffs: 6000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">140 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="TE600">
+              <a href="#">
+                <img src="/Vape4.jpg" alt="Vape TE600" class="product-image">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">TE600</h3>
+                  <p class="text-gray-500 mb-4">Sabor: WATERMELON ICE<br><br>Recargable: SI<br><br>Puffs: 6000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">130 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="HIGH LIGHT">
+              <a href="#">
+                <img src="/Vape5.jpg" alt="Vape HIGH LIGHT" class="product-imagex">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">HIGH LIGHT</h3>
+                  <p class="text-gray-500 mb-4">Sabor: LUSH ICE<br><br>Recargable: SI<br><br>Puffs: 4000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">130 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="MK HIGH PRO MAX">
+              <a href="#">
+                <img src="/Vape6.jpg" alt="Vape MK HIGH PRO MAX" class="product-imagey">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">MK HIGH PRO MAX</h3>
+                  <p class="text-gray-500 mb-4">Sabor: GUAVA RASPBERRY<br><br>Recargable: SI<br><br>Puffs: 1500<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">190 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="MLIFE">
+              <a href="#">
+                <img src="/Vape7.jpg" alt="Vape MLIFE" class="product-images">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">MLIFE</h3>
+                  <p class="text-gray-500 mb-4">Sabor: BLUEBERRY RASPBERRY ICE<br><br>Recargable: SI<br><br>Puffs: 4000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">110 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="MLIFE">
+              <a href="#">
+                <img src="/Vape8.jpg" alt="Vape MLIFE" class="product-images">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">MLIFE</h3>
+                  <p class="text-gray-500 mb-4">Sabor: BLUE RAZZ ICE<br><br>Recargable: SI<br><br>Puffs: 4000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">110 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="MK HIGH PRO">
+              <a href="#">
+                <img src="/Vape9.jpg" alt="Vape MK HIGH PRO" class="product-imagey">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">MK HIGH PRO</h3>
+                  <p class="text-gray-500 mb-4">Sabor: BLUE RAZZ<br><br>Recargable: NO<br><br>Puffs: 1000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">90 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="MK HIGH PRO">
+              <a href="#">
+                <img src="/Vape10.jpg" alt="Vape MK HIGH PRO" class="product-imagey">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">MK HIGH PRO</h3>
+                  <p class="text-gray-500 mb-4">Sabor: STRAWBERRY LYCHEE<br><br>Recargable: NO<br><br>Puffs: 1000<br><br>Cantidad: 2</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">90 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="MK HIGH PRO">
+              <a href="#">
+                <img src="/Vape11.jpg" alt="Vape MK HIGH PRO" class="product-imagey">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">MK HIGH PRO</h3>
+                  <p class="text-gray-500 mb-4">Sabor: GRAPE PARADISE<br><br>Recargable: NO<br><br>Puffs: 1000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">90 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="MK HIGH PRO">
+              <a href="#">
+                <img src="/Vape12.jpg" alt="Vape MK HIGH PRO" class="product-imagey">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">MK HIGH PRO</h3>
+                  <p class="text-gray-500 mb-4">Sabor: MIXED BERRIES<br><br>Recargable: NO<br><br>Puffs: 1000<br><br>Cantidad: 2</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">90 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden product-margin" data-product-name="MK HIGH PRO">
+              <a href="#">
+                <img src="/Vape13.jpg" alt="Vape MK HIGH PRO" class="product-imagey">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold mb-2">MK HIGH PRO</h3>
+                  <p class="text-gray-500 mb-4">Sabor: PEACH ICE<br><br>Recargable: NO<br><br>Puffs: 1000<br><br>Cantidad: 1</p>
+                  <div class="price-and-button">
+                    <span class="text-primary font-bold">90 MXN</span>
+                    <!--<button class="btn-sm">Comprar</button>-->
+                  </div>
+                </div>
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('search-input-main'); // Selector del campo de búsqueda
+      const products = document.querySelectorAll('[data-product-name]'); // Selector de los productos
+
+      searchInput.addEventListener('input', () => {
+        const searchTerm = searchInput.value.toLowerCase(); // Obtén el texto de búsqueda y conviértelo a minúsculas
+        
+        products.forEach(product => {
+          const productName = product.getAttribute('data-product-name').toLowerCase(); // Obtén el nombre del producto y conviértelo a minúsculas
+          if (productName.includes(searchTerm)) {
+            product.style.display = ''; // Muestra el producto si coincide con el término de búsqueda
+          } else {
+            product.style.display = 'none'; // Oculta el producto si no coincide con el término de búsqueda
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
